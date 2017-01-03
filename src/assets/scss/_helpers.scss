@@ -27,21 +27,21 @@
 
 .margin-top-l {
   margin-top: $global-margin * 1;
-  @media #{$large-up} {
+  @include breakpoint(large up) {
     margin-top: $global-margin * 2;
   }
 }
 
 .margin-top-xl {
   margin-top: $global-margin * 2;
-  @media #{$large-up} {
+  @include breakpoint(large up) {
     margin-top: $global-margin * 3;
   }
 }
 
 .margin-top-xxl {
   margin-top: $global-margin * 2;
-  @media #{$large-up} {
+  @include breakpoint(large up) {
     margin-top: $global-margin * 4;
   }
 }
