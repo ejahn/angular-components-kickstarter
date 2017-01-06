@@ -3,7 +3,7 @@ import AppController from './app.controller';
 const AppComponent = {
   controller: AppController,
   template: `
-    <div ui-view></div>
+    <ui-view></ui-view>
   `
 };
 
