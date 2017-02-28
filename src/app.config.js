@@ -1,3 +1,4 @@
+/** @ngInject */
 const AppConfig = ($locationProvider, $urlRouterProvider) => {
   /** @ngInject */
   // $locationProvider.html5Mode(true);

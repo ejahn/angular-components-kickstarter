@@ -1,3 +1,4 @@
+/** @ngInject */
 const AppRun = () => {
   /** @ngInject */
 };
